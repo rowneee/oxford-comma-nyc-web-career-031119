@@ -5,7 +5,7 @@ def oxford_comma(array)
     array[-2] << " and "
     array.join
   elsif array.length >= 3
-    array[-1].prepend = "and "
+    array[-1].push = "and "
     array.join(", ")
   end
 end
