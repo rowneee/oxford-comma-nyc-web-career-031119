@@ -9,6 +9,6 @@ def oxford_comma(array)
     last_item = "and #{array[-1}"
     old_arr = ", #{array[1..-2]}"
     arr = first_item + old_arr + last_item
+    return arr
   end
-  return arr
 end
