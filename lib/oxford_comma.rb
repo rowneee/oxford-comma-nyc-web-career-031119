@@ -6,7 +6,8 @@ def oxford_comma(array)
   elsif array.length >= 3
     last_item = "and #{array[-1}"
     old_arr = ", #{array[1..-2]}"
-    new_arr = "#{array[0]}" + old_arr + last_item
-    return new_arr
+    new_arr = "#{array[0]}"
+    arr = new_arr + old_arr + last_item
+    return arr
   end
 end
